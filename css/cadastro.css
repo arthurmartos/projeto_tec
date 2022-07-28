@@ -1,0 +1,48 @@
+.cadastro{
+    background: url(../bg-home-novo-3.jpg);
+    background-size: cover;
+    margin: 0px -8px;
+    padding: 10rem 6rem 4rem 5rem;
+}
+
+h2{
+    text-align: center;
+    color: #ffffff;
+}
+
+.cadastro .container{
+    display: flex;
+    flex-flow: column;
+    margin: 25px;
+
+}
+
+.campos{
+    display: flex;
+    flex-flow: column;
+    padding: 0 40px;
+    
+}
+
+ input{
+    margin: 0 100px .8em;
+    margin-bottom: .8em;
+    border-radius: 5px;
+    padding: 10px;
+}
+.botaoCadastro{
+    font-family: Geometr415 Blk BT;
+    font-size: 20px;
+    margin: 0 auto;
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background: none;
+    color: #ffffff;
+    transition: 400ms;
+}
+
+.botaoCadastro:hover{
+    box-shadow: 0px 0px 10px 10px rgb(255, 255, 255);;
+}

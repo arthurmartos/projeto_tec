@@ -1,0 +1,8 @@
+.rodape{
+    border-bottom: 5px solid #cf120b;
+    display: flex;
+    background: url(../fundo.png);
+    background: rgba(30, 44, 53, 0.8);
+    padding: 20px;
+    margin: 0 -8px -8px;
+}

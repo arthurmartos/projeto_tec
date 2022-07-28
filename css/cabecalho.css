@@ -1,0 +1,37 @@
+.cabecalhoPrincipal{
+    border-top: 5px solid #cf120b;
+    margin: -8px -8px 0;
+    position: absolute;
+    width: 100%;
+}
+
+.cabecalhoPrincipal .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(30, 44, 53, 0.8);
+    padding: 15px;
+}
+
+.cabecalhoPrincipal-titulo:hover{
+    cursor: pointer;
+}
+
+.cabecalhoPrincipal-nav{
+    display: flex;
+}
+
+.cabecalhoPrincipal-nav-link{
+    font-size: 18px;
+    font-family: Geometr415 Blk BT;
+    color: white; 
+    transition: 400ms;
+    padding: 10px;
+    text-decoration: none;
+    margin: 0 0 0 10px;
+}
+
+.cabecalhoPrincipal-nav-link:hover{
+    background-color: #e7e7e7;
+    color: #000000;
+}

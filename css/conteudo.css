@@ -1,0 +1,44 @@
+.conteudoPrincipal{
+    background: url(../bg-home-novo-3.jpg) center bottom repeat-x;
+    background-size: cover;
+    margin: 0 -8px;
+    padding: 10rem 6rem 4rem 5rem;
+    
+}
+
+.conteudoPrincipal-pgs{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.conteudoPrincipal .container{
+    margin: 0 30px;
+    
+}
+
+.conteudoPrincipal-pgs{
+    margin: 0 0;
+}
+
+.conteudoPrincipal-pgs-link{
+    width: 38%;
+    margin: 1%;
+    text-align: center;
+    font-size: 40px;
+    /* background: #ffffff; */
+    transition: 400ms;
+    border-radius: 10px;
+    padding: 40px;
+}
+.conteudoPrincipal-pgs-link a{
+    text-decoration: none;
+    font-family: Geometr415 Blk BT;
+    color: #000000;
+}
+
+.conteudoPrincipal-pgs-link:hover{
+    box-shadow: 0px 0px 10px 10px rgb(111, 111, 111);
+}
